@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Reading App</title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <h1 id="heading">Reading App</h1>
+
+    <h2>Forms</h2>
+    <form id="form">
+      <label for="Title">Title:</label>
+      <br />
+      <input type="text" id="book_title">
+      <br />
+      <label for="Author">Author:</label>
+      <br />
+      <input type="text" id="book_author">
+
+      <br />
+      <br />
+        <label for="Category">Book Cagetory:</label>
+        <input name="category" type="radio" value="Book"> Book
+        <input name="category" type="radio" value="Article"> Article
+        <input name="category" type="radio" value="Blog"> Blog Post
+      <br />
+      <br />
+    <select id="select">
+      <label for="Title">Genre:</label>
+      <option disabled selected>Please select a genre:</option>
+      <option value="Definitely Yes">Space Cowboy Drama</option>
+      <option value="Ok, Maybe">Horror</option>
+      <option value="Absolutely Not">SciFi</option>
+    </select>
+      <br />
+      <br />
+      <button type="submit" id="submit_name">Submit Name</button>
+      <br />
+    </form>
+  </body>
+</html>
